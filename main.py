@@ -22,4 +22,13 @@ def division (numerador, denominador):
 num1 = int(input("Ingrese el número 1"))    
 num2 = int(input("Ingrese el número 2"))        
     
+match operacion:
+    case 1:
+        suma(num1, num2)
+    case 2:
+        resta(num1, num2)
+    case 3:
+        multiplicacion(num1, num2)
+    case 4:
+        division(num1, num2)     
                    
